@@ -1,16 +1,16 @@
 import React from "react";
 import Button from "@/components/Button";
-import Image from "next/image";
-import Link from "next/link";
 import ImageIsolated from "@/components/ImageIsolated";
 import HappyClientsBadge from "@/components/HappyClientsBadge";
-export const Hero = () => {
+import mockupImage from '/public/mockup.jpg';  // Import the image file
+import Link from "next/link";
+const Hero = () => {
   return (
     <div className="bg-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 md:items-center gap-4">
           <div>
-           <HappyClientsBadge />
+            <HappyClientsBadge />
             <h1 className="mb-2 mt-4">
               We build <span className="text-purple-400">professional</span>{" "}
               Websites
@@ -22,15 +22,16 @@ export const Hero = () => {
               now. We love when our clients succeed.
             </p>
             <Link href='#contact'>
-            <Button />
+              <Button />
             </Link>
           </div>
           <div>
-            <ImageIsolated src="/mockup.jpg" alt="mockup" />
+            <ImageIsolated src={mockupImage} alt="mockup" />  {/* Use the imported image */}
           </div>
         </div>
       </div>
     </div>
-    
   );
 };
+
+export default Hero;
