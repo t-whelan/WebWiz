@@ -41,7 +41,7 @@ export const sendMessage = async (
    
     await resend.emails.send({
       from: `${company} <onboarding@resend.dev>`,
-      to: "test@test.com",
+      to: "whelan.tionne@gmail.com",
       subject: ` New message from ${name}`,
       html: `<p>${email}:<br/></br> ${message}</p>`,
     });
