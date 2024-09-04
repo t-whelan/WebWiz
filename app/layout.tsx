@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const inter = Nunito_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "WebWiz",
+  title: "WizGenie",
   description: "A Web Development Agency",
 };
 
