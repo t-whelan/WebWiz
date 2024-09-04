@@ -10,7 +10,7 @@ const Logo = () => {
         height={40}
         className="rounded"
       />
-      <span className="font-bold text-purple-500 text-xl">WebWiz</span>
+      <span className="font-bold text-purple-500 text-xl">WizGenie</span>
     </div>
   );
 };

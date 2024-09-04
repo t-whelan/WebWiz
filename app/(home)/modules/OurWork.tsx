@@ -71,7 +71,7 @@ const projects = [
       name: "John",
       image: ShawnImg,
       position: "CEO, Infes",
-      text: "The team at WebWiz is incredible. They are professional and very easy to work with. They took our ideas and brought them to life. I highly recommend them.",
+      text: "The WizGenie Work and Ethic is incredible. They are professional and very easy to work with. They took our ideas and brought them to life. I highly recommend them.",
     },
   },
   {
@@ -87,7 +87,7 @@ const projects = [
       name: "Shawn",
       image: RafaelImg,
       position: "CEO, Aronvera",
-      text: "We constantly did not find time for our website. Thankfully with WebWiz, it required minimal effort from our side. Highly Recommend.",
+      text: "We constantly did not find time for our website. Thankfully with WizGenie, it required minimal effort from our side. Highly Recommend.",
     },
   },
 ];
