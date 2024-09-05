@@ -68,7 +68,7 @@ const OurWork = () => {
     {
       title: "A JavaScript Quiz Web App",
       image: QuizAppImg,
-      link: "https://quizapp.com",
+      link: "https://t-whelan.github.io/javascript-quiz/",
       stats: [
         { value: "10,000+", description: "Quiz completions" },
         { value: "+200%", description: "User registrations" },
